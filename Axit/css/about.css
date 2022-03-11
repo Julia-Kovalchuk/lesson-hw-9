@@ -1,0 +1,148 @@
+.about {
+  margin: 50px 170px 58px;
+}
+
+@media screen and (max-width: 1024px) {
+  .about {
+    margin: 0 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .about {
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+}
+
+.about__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about__title {
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .about__title {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .about__title {
+    margin-bottom: 25px;
+  }
+}
+
+.about__subtitle {
+  margin-bottom: 110px;
+}
+
+@media screen and (max-width: 1024px) {
+  .about__subtitle {
+    margin-bottom: 66px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .about__subtitle {
+    margin-bottom: 84px;
+  }
+}
+
+.about__row {
+  display: flex;
+  flex: 0 1 33.33%;
+}
+
+@media screen and (max-width: 320px) {
+  .about__row {
+    display: block;
+  }
+}
+
+.about__column:nth-child(2) {
+  margin: 0 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .about__column:nth-child(2) {
+    margin: 0 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .about__column {
+    margin: 0 0 44px 0;
+  }
+  .about__column:nth-child(2) {
+    margin: 0 0 44px 0;
+  }
+  .about__column:nth-child(3) {
+    margin-bottom: 0;
+  }
+}
+
+.about__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 39px;
+  width: 92px;
+  height: 92px;
+  border-radius: 46px;
+  border: 1px solid #ec7979;
+}
+
+@media screen and (max-width: 1024px) {
+  .about__image {
+    margin-bottom: 34px;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+  }
+}
+
+.about__caption {
+  margin-bottom: 8px;
+  padding: 38px 0;
+  text-align: center;
+
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  display: flex;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 1024px) {
+  .about__caption {
+    margin-bottom: 17px;
+    padding: 32px 0;
+
+    font-size: 18px;
+    line-height: 24.5px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .about__caption {
+    margin-bottom: 9px;
+  }
+}
+
+.about__description {
+  text-align: center;
+  font-family: "Raleway";
+}
